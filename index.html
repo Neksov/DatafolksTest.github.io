@@ -15,8 +15,8 @@
 
 <body>
   <main>
-    <div class="container-fluid">
-      <section class="projects">
+    <section class="projects">
+      <div class="container-fluid">
         <div class="projects__title">
           РЕАЛИЗОВАННЫЕ ПРОЕКТЫ
         </div>
@@ -33,26 +33,67 @@
         </div>
         <div class="cards projects__cards">
           <div class="row">
-            <div class="col-xl-4 col-lg-6"><img src="img/projectOne.png" alt="projectOne" class="cards__img">
-              <div class="cards__title">
+            <div class="col-xl-4 col-lg-4 col-md-4">
+              <img src="img/projectOne.png" alt="projectOne" class="cards__img">
+              <img src="img/shadow.png" alt="shadow" class="shadow">
+              <div class="cards__title cards__title-one">
                 республика саха
               </div>
             </div>
-            <div class="col-xl-4 col-lg-6"><img src="img/projectTwo.png" alt="projectTwo" class="cards__img">
-              <div class="cards__title">
+            <div class="col-xl-4 col-lg-4 col-md-4">
+              <img src="img/projectTwo.png" alt="projectTwo" class="cards__img">
+              <img src="img/shadow.png" alt="shadow" class="shadow">
+              <div class="cards__title cards__title-two">
                 газпром
               </div>
             </div>
-            <div class="col-xl-4 col-lg-6"><img src="img/projectThree.png" alt="projectThree" class="cards__img">
-              <div class="cards__title">
+            <div class="col-xl-4 col-lg-4 col-md-4">
+              <img src="img/projectThree.png" alt="projectThree" class="cards__img">
+              <img src="img/shadow.png" alt="shadow" class="shadow">
+              <div class="cards__title cards__title-three">
                 nokia
               </div>
             </div>
           </div>
         </div>
-      </section>
+        <button type="button" class="btn projects__btn" data-toggle="modal" data-target="#exampleModal">загрузить
+          еще</button>
+
+    </section>
     </div>
   </main>
+  <footer>
+    <section class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-6"></div>
+          <div class="col-xl-6"></div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Алтайский край</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/modal.jpg" alt="" class="modal-body-img">
+        </div>
+        <div class="modal-footer">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat reiciendis, pariatur reprehenderit
+            dolorum in totam ad facere. Aperiam delectus modi, officiis aspernatur distinctio veniam veritatis expedita
+            nesciunt similique accusamus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
   </script>
 

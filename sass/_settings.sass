@@ -7,6 +7,7 @@ body
 button
   &:focus, &:active
     outline: none !important
+    box-shadow: none
 input
   &:focus
     outline: none !important
@@ -23,8 +24,9 @@ h1,h2,h3,h4,h5,h6,p
   margin: 0
 a, :before, :after, button, input
   transition: all 0.4s ease-in-out
-.container-fluid
-  padding: 0
-  max-width: 1851px
 .col-lg-4
   padding: 0
+@media ( min-width: 18510px  )
+  .container-fluid
+    max-width: 1851px
+
