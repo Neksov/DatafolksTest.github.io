@@ -40,10 +40,16 @@
   font-style: normal;
   font-display: wrap; }
 
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap; }
+
 * {
   padding: 0;
-  margin: 0;
-  font-family: "DINPro"; }
+  margin: 0; }
 
 body {
   overflow-x: hidden; }
@@ -79,9 +85,14 @@ a, :before, :after, button, input {
   .container-fluid {
     max-width: 1851px; } }
 
+@media (min-width: 1200px) {
+  .offset-xl-3 {
+    margin-left: 22%; } }
+
 .projects {
   padding-top: 29px;
-  padding-bottom: 170px; }
+  padding-bottom: 103px;
+  font-family: "DINPro"; }
   .projects__title {
     font-size: 46px;
     color: #344258;
@@ -179,7 +190,142 @@ a, :before, :after, button, input {
 .footer {
   background-color: #0c1c28;
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 155px; }
+  .footer__form {
+    border: 5px solid #546682;
+    width: 555px;
+    height: 470px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 52px;
+    margin-top: -17px;
+    padding-top: 38px; }
+
+.contact {
+  color: #ffffff;
+  margin-top: 24px; }
+  .contact__title {
+    font-size: 43px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -1px; }
+  .contact__name {
+    margin-left: 8px;
+    margin-top: 52px;
+    letter-spacing: 0.3px; }
+  .contact__address {
+    margin-left: 8px;
+    font-size: 18px;
+    line-height: 1.2;
+    width: 373px;
+    margin-top: 22px;
+    letter-spacing: -0.9px; }
+  .contact__telMail {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+
+.tel {
+  font-family: "MyriadPro";
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 40px;
+  margin-left: 8px;
+  letter-spacing: -1.1px;
+  font-family: "MyriadPro"; }
+  .tel a {
+    color: #ffffff; }
+    .tel a:hover {
+      opacity: 0.8;
+      color: #0058a7; }
+
+.mail {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  line-height: 1.2;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 110px;
+  margin-top: 17px;
+  position: relative; }
+  .mail a {
+    color: #3d95e3; }
+  .mail::after {
+    content: '';
+    height: 105px;
+    width: 3px;
+    background-color: #0058a7;
+    position: absolute;
+    left: -38px;
+    top: -15px; }
+
+.social {
+  margin-top: 21px; }
+
+.form-control {
+  background-color: #546682;
+  width: 470px;
+  height: 55px;
+  padding-left: 50px;
+  border-radius: 0; }
+  .form-control::-webkit-input-placeholder {
+    font-size: 19.322px;
+    font-family: "DINPro";
+    color: rgba(255, 255, 255, 0.839);
+    line-height: 1.2;
+    text-align: left; }
+  .form-control::-moz-placeholder {
+    font-size: 19.322px;
+    font-family: "DINPro";
+    color: rgba(255, 255, 255, 0.839);
+    line-height: 1.2;
+    text-align: left; }
+  .form-control:-ms-input-placeholder {
+    font-size: 19.322px;
+    font-family: "DINPro";
+    color: rgba(255, 255, 255, 0.839);
+    line-height: 1.2;
+    text-align: left; }
+  .form-control::-ms-input-placeholder {
+    font-size: 19.322px;
+    font-family: "DINPro";
+    color: rgba(255, 255, 255, 0.839);
+    line-height: 1.2;
+    text-align: left; }
+  .form-control::placeholder {
+    font-size: 19.322px;
+    font-family: "DINPro";
+    color: rgba(255, 255, 255, 0.839);
+    line-height: 1.2;
+    text-align: left; }
 
 @media screen and (min-width: 1140px) and (max-width: 1440px) {
   .cards__title-one {
