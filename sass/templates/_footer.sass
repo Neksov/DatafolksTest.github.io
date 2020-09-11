@@ -111,15 +111,20 @@
   opacity: 0.329
   margin-bottom: 3px
   width: 90%
+  
 .form-control
   background-color: rgb(84, 102, 130)
   height: 55px
   padding-left: 36px
   border-radius: 0
   color: #ffffff
+  box-sizing: border-box
+  box-shadow: none
   &::placeholder
     font-size: 14px
     font-family: "DINPro"
     color: #ffffff
     line-height: 1.2
     text-align: left
+  &:focus, &:active
+    box-shadow: none

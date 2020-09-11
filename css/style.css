@@ -332,7 +332,11 @@ a, :before, :after, button, input {
   height: 55px;
   padding-left: 36px;
   border-radius: 0;
-  color: #ffffff; }
+  color: #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
   .form-control::-webkit-input-placeholder {
     font-size: 14px;
     font-family: "DINPro";
@@ -363,6 +367,9 @@ a, :before, :after, button, input {
     color: #ffffff;
     line-height: 1.2;
     text-align: left; }
+  .form-control:focus, .form-control:active {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
 
 @media screen and (min-width: 1140px) and (max-width: 1410px) {
   .cards__title-one {
