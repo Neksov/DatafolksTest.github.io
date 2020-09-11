@@ -283,6 +283,8 @@ a, :before, :after, button, input {
   position: relative; }
   .mail a {
     color: #3d95e3; }
+    .mail a:hover {
+      color: #ffffff; }
   .mail::after {
     content: '';
     height: 105px;
