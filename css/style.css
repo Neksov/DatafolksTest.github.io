@@ -305,7 +305,6 @@ a, :before, :after, button, input {
 
 .form__security {
   font-size: 14px;
-  font-family: "Myriad Pro";
   color: #4c89c1;
   text-decoration: underline;
   line-height: 1.2;
