@@ -135,21 +135,6 @@ a, :before, :after, button, input {
 
 .cards {
   padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
   overflow: hidden; }
   .cards__title {
     font-size: 24px;
@@ -169,10 +154,14 @@ a, :before, :after, button, input {
       left: 45%; }
   .cards__img {
     position: relative;
-    max-width: 100%; }
+    width: 100%; }
+
+.modal-body {
+  height: 100%; }
 
 .modal-body-img {
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
 
 .modal-content {
   background-color: #0c1c28; }
@@ -189,7 +178,8 @@ a, :before, :after, button, input {
 .shadow {
   position: absolute;
   left: 0;
-  bottom: 0; }
+  bottom: 0;
+  width: 100%; }
 
 .footer {
   background-color: #0c1c28;
@@ -341,7 +331,8 @@ a, :before, :after, button, input {
   background-color: #546682;
   height: 55px;
   padding-left: 36px;
-  border-radius: 0; }
+  border-radius: 0;
+  color: #ffffff; }
   .form-control::-webkit-input-placeholder {
     font-size: 14px;
     font-family: "DINPro";
@@ -446,9 +437,9 @@ a, :before, :after, button, input {
   .projects__cards {
     margin-top: 80px; }
   .cards__title {
-    font-size: 16px; }
+    font-size: 18px; }
     .cards__title-one {
-      left: 35%; }
+      left: 40%; }
   .contact {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -487,7 +478,8 @@ a, :before, :after, button, input {
     display: -ms-flexbox;
     display: flex; }
   .shadow {
-    left: auto; } }
+    left: auto;
+    width: 100%; } }
 
 @media screen and (min-width: 320px) and (max-width: 575px) {
   .projects__title {
@@ -502,9 +494,9 @@ a, :before, :after, button, input {
   .projects__btn {
     max-width: 100%; }
   .cards__title {
-    font-size: 16px; }
+    font-size: 18px; }
     .cards__title-one {
-      left: 30%; }
+      left: 32%; }
   .contact {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -554,4 +546,5 @@ a, :before, :after, button, input {
     display: -ms-flexbox;
     display: flex; }
   .shadow {
-    left: auto; } }
+    left: auto;
+    width: 100%; } }

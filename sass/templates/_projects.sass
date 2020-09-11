@@ -48,11 +48,6 @@
       color: #ffffff
 .cards
   padding: 0
-  display: flex
-  align-items: center
-  justify-content: center
-  flex-direction: row
-  flex-wrap: wrap
   overflow: hidden
   &__title
     font-size: 24px
@@ -72,9 +67,12 @@
       left: 45%
   &__img
     position: relative
-    max-width: 100%
+    width: 100%
+.modal-body 
+  height: 100%
 .modal-body-img
   width: 100%
+  height: 100%
 .modal-content
   background-color: rgb(12, 28, 40)
 .modal-header .close
@@ -83,8 +81,8 @@
   color: #ffffff
 .modal-footer
   color: #ffffff
-
 .shadow
   position: absolute
   left: 0
   bottom: 0
+  width: 100%
