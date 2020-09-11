@@ -81,14 +81,6 @@ a, :before, :after, button, input {
 .col-lg-4 {
   padding: 0; }
 
-@media (min-width: 18510px) {
-  .container-fluid {
-    max-width: 1851px; } }
-
-@media (min-width: 1200px) {
-  .offset-xl-3 {
-    margin-left: 22%; } }
-
 .projects {
   padding-top: 29px;
   padding-bottom: 103px;
