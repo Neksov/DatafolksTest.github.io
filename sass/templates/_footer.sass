@@ -1,18 +1,18 @@
 .footer
   background-color: rgb(12, 28, 40)
   padding-top: 50px
-  padding-bottom: 155px
+  padding-bottom: 100px
   &__form
     border: 5px solid rgb(84, 102, 130)
-    width: 555px
+    max-width: 555px
     height: 470px
     display: flex
     flex-direction: column
     align-items: center
-    justify-content: center
-    margin-left: 52px
     margin-top: -17px
     padding-top: 38px
+  &__group
+    justify-content: center
 .contact
   color: #ffffff
   margin-top: 24px
@@ -36,6 +36,7 @@
     margin-top: 50px
     display: flex
     flex-direction: row
+    width: 550px
 .tel
   font-family: "MyriadPro"
   font-size: 30px
@@ -57,7 +58,7 @@
   text-align: left
   display: flex
   flex-direction: column
-  margin-left: 110px
+  margin-left: 100px
   margin-top: 17px
   position: relative
   a
@@ -72,16 +73,50 @@
     top: -15px
 .social
   margin-top: 21px
-
+.form
+  &__security
+    font-size: 14px
+    font-family: "Myriad Pro"
+    color: rgb(76, 137, 193)
+    text-decoration: underline
+    line-height: 1.2
+    text-align: center
+    margin-top: 11px
+    letter-spacing: 0.1px
+    margin-bottom: 20px
+    cursor: pointer
+    &:hover
+      color: #ffffff
+  &__btn
+    font-size: 18px
+    font-family: "DINPro"
+    color: rgb(255, 255, 255)
+    font-weight: bold
+    text-align: center
+    border: 3px solid rgb(255, 255, 255)
+    width: 290px
+    height: 59px
+    text-transform: uppercase
+    box-sizing: border-box
+    box-shadow: none
+    background: transparent
+    &:focus, &:active
+      box-shadow: none
+    &:hover
+      background: #ffffff
+      color: rgb(52, 66, 88)
+.form-group
+  opacity: 0.329
+  margin-bottom: 3px
+  width: 90%
 .form-control
   background-color: rgb(84, 102, 130)
-  width: 470px
   height: 55px
-  padding-left: 50px
+  padding-left: 36px
   border-radius: 0
   &::placeholder
-    font-size: 19.322px
+    font-size: 14px
     font-family: "DINPro"
-    color: rgba(255, 255, 255, 0.839)
+    color: #ffffff
     line-height: 1.2
     text-align: left
