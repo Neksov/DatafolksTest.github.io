@@ -154,7 +154,8 @@ a, :before, :after, button, input {
       left: 45%; }
   .cards__img {
     position: relative;
-    width: 100%; }
+    width: 100%;
+    min-height: 100%; }
 
 .modal-body {
   height: 100%; }
@@ -465,9 +466,11 @@ a, :before, :after, button, input {
     .contact__title {
       font-size: 30px; }
     .contact__name {
-      margin-top: 20px; }
+      margin-top: 20px;
+      margin-left: 0; }
     .contact__address {
-      text-align: center; }
+      text-align: center;
+      margin-left: 0; }
   .footer {
     padding-top: 30px; }
     .footer__form {
@@ -522,10 +525,12 @@ a, :before, :after, button, input {
     .contact__title {
       font-size: 30px; }
     .contact__name {
-      margin-top: 20px; }
+      margin-top: 20px;
+      margin-left: 0; }
     .contact__address {
       text-align: center;
-      width: 300px; }
+      width: 100%;
+      margin-left: 0; }
     .contact__telMail {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
